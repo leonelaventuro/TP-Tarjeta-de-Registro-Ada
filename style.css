@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tarjeta {
+    background-color: #00D1B2;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: grey;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 1px 1px 4px 4px rgb(187, 187, 187);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-card {
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    margin: auto 20px;
+}
+
+section {
+    padding: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 400px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 36px;
+    margin: 0;
+}
+
+.subtitulo {
+    margin: 0;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    height: 30px;
+    padding: 7px 11px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #DBDBDB;
+}
+
+input:hover {
+    border-color: #B5B5B5;
+}
+
+input:focus {
+    border-color: #3273DC;
+}
+
+button {
+    background-color: #00D1B2;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+}
+
+button:hover {
+    background-color: #00C4A7;
+}
+
+button:active {
+    background-color: #00B89C;
+}
+
+.link {
+    text-decoration:none;
+    color: #3273DC;
+}
+
+.link:hover {
+    color: #363636;
+}
